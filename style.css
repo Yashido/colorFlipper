@@ -1,0 +1,17 @@
+.nav--primary {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav--primary--right {
+    margin-left: auto;
+}
+.nav--list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+}
+.btn {
+    padding: .5rem;
+}
