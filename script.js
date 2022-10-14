@@ -3,11 +3,12 @@ function randomNumber() {
 };
 
 const btnColor =document.getElementById('btn--color');
-let bgColor = document.body.style.backgroundColor()
+var i = 0;
 
 function colorArray() {
     let clrArray = ['red','blue', 'green', 'purple'];
-    let i = 0;
-    document.body.style.background.color('clrArray[i]')
+    document.getElementById('page--container').style.backgroundColor = clrArray[i];
     i++;
+    console.log(i);
+    return;
 }
