@@ -18,3 +18,8 @@
 .btn {
     padding: .5rem;
 }
+.div-display {
+    display: flex;
+    margin: 10rem;
+    justify-content: center;
+}
