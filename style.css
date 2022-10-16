@@ -1,10 +1,18 @@
 #page--container {
     margin: 0;
+    font-family: 'Share', cursive;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
 }
 .nav--primary {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 4rem;
+    margin-left: 4rem;
+    margin-top: 5rem;
 }
 .nav--primary--right {
     margin-left: auto;
@@ -16,10 +24,13 @@
     gap: 1rem;
 }
 .btn {
-    padding: .5rem;
+    padding: 1.2rem;
+    font-size: 1rem;
 }
 .div-display {
-    display: flex;
-    margin: 10rem;
-    justify-content: center;
+    margin: 20rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: white;
 }
